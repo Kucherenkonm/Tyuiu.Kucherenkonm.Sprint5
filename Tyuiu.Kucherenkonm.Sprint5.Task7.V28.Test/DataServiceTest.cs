@@ -1,5 +1,5 @@
-﻿using Tyuiu.Kucherenkonm.Sprint5.Task4.V24.Lib;
-namespace Tyuiu.Kucherenkonm.Sprint5.Task4.V24.Test
+﻿using Tyuiu.Kucherenkonm.Sprint5.Task7.V28.Lib;
+namespace Tyuiu.Kucherenkonm.Sprint5.Task7.V28.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -7,11 +7,12 @@ namespace Tyuiu.Kucherenkonm.Sprint5.Task4.V24.Test
         [TestMethod]
         public void CheckExistsFile()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask4V24.txt";
+            string path = @"C:\Users\stysh\AppData\Local\Temp\OutPutDataFileTask7V28.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
             Assert.AreEqual(wait, fileExists);
         }
+
     }
 }

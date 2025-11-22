@@ -1,5 +1,4 @@
-﻿using System.IO;
-using Tyuiu.Kucherenkonm.Sprint5.Task5.V8.Lib;
+﻿using Tyuiu.Kucherenkonm.Sprint5.Task5.V8.Lib;
 namespace Tyuiu.Kucherenkonm.Sprint5.Task5.V8.Test
 {
     [TestClass]
