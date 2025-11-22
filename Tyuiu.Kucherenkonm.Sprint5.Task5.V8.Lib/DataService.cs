@@ -16,9 +16,12 @@ namespace Tyuiu.Kucherenkonm.Sprint5.Task5.V8.Lib
                     double[] a = line.Split(" ").Select(double.Parse).ToArray();
                     for (int i = 0; i < a.Length; i++)
                     {
-                        if (a[i] < res)
+                        if (a[i] != Math.Truncate(a[i]))
                         {
-                            res = a[i];
+                            if (a[i] < res)
+                            {
+                                res = a[i];
+                            }
                         }
                     }
                 }
